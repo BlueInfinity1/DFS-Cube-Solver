@@ -1,3 +1,7 @@
+Note: This output contains no backtracking of the DFS algorithm. 
+
+**********
+
 Processing Piece 1: Piece B: Domino along the z-axis
 Unique orientations available: 3
 Orientation 1: [[0, 0, 0], [0, 0, 1]]
