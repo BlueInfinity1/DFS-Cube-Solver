@@ -21,8 +21,7 @@ puzzle = CubePuzzle((2, 2, 2))
 # Total: 3 + 2 + 2 + 1 = 8
 
 # The order of the pieces can be freely changed, and this can strongly affect how the search process unfolds.
-# Here, I've chosen a piece order which often results in a solution that is not trivial (i.e. includes no backtracking, just placing 4 pieces)
-# but neither too time-consuming (requiring a lot of steps and backtracking to solve)
+# Since the 2x2x2 puzzle is simple, certain piece configurations will often result in trivial solutions (i.e. includes no backtracking, just placing 4 pieces).
 
 pieces = [    
     # Piece B: Domino along the z-axis
